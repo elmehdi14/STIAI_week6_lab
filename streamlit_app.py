@@ -1,4 +1,5 @@
 import streamlit as st
+import numpy as np
 # Streamlit UI
 st.title("Information Retrieval using Document Embeddings")
 # Input query

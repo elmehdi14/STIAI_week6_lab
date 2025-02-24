@@ -6,7 +6,7 @@ st.title("Information Retrieval using Document Embeddings")
 query = st.text_input("Enter your query:")
 # Load or compute query embedding (Placeholder: Replace with actual embedding model)
 def get_query_embedding(query):
-    return np.random.rand(embeddings.shape[1]) # Replace with actual embedding function
+    return np.random.rand(plot_embeddings.shape[1]) # Replace with actual embedding function
 if st.button("Search"):
     query_embedding = get_query_embedding(query)
     results = retrieve_top_k(query_embedding, embeddings)

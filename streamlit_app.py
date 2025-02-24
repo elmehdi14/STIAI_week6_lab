@@ -1,3 +1,4 @@
+import streamlit as st
 # Streamlit UI
 st.title("Information Retrieval using Document Embeddings")
 # Input query

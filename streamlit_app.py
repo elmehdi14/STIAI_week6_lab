@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 # Load precomputed document embeddings (Assuming embeddings.npy and documents.txt exist)
-embeddings = np.load("embeddings.npy")
+embeddings = np.load("document_embeddings.npy")
 with open("documents.txt", "r", encoding="utf-8") as f:
     documents = f.readlines()
 def retrieve_top_k(query_embedding, embeddings, k=10):

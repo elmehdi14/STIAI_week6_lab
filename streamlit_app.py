@@ -14,7 +14,7 @@ def retrieve_top_k(query_embedding, embeddings, k=5):
     return [(documents[i], similarities[i]) for i in top_k_indices]
 
 # Streamlit UI
-st.title("Information Retrieval System")
+st.title("🔍Information Retrieval System")
 st.write("Search Reuters News Articles Using Word Embeddings")
 
 # Input query
